@@ -11,4 +11,11 @@ for (let i=0; i < Numbers.length; i++) {
 
 Numbers.push(6, 7, 8, 9, 10);
 
-console.log(Numbers)
+console.log(Numbers) /* [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+The new values appeared after the previous ones
+*/
+console.log(Numbers.pop());
+console.log(Numbers.pop());
+console.log(Numbers.pop());
+
+console.log(Numbers) // [1, 2, 3, 4, 5, 6, 7]
